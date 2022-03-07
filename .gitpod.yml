@@ -1,0 +1,6 @@
+# GitPod Workspace image to use
+image: gitpod/workspace-python
+
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - init: pip install "cookiecutter>=1.7.0" # runs during prebuild
